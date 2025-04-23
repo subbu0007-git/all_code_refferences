@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "testing_pdfdownload",
+    "slug": "testing_pdfdownload",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+      "requestLegacyExternalStorage": true,
+      "package": "com.subbu_123.testing_pdfdownload"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47d0f276-a8ed-4f93-b431-4f3a1d460284"
+      }
+    }
+  }
+}
